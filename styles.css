@@ -17,3 +17,7 @@ input::before {
     top: 10px;
     left: 10px;
 }
+
+input:checked::before {
+    transform: translateX(200px);
+}
