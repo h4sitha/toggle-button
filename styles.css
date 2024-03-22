@@ -5,6 +5,8 @@ input {
     border-radius: 100px;
     appearance: none;
     position: relative;
+    background-color: lightgray;
+    transition: 0.5s;
 }
 
 input::before {
@@ -21,5 +23,10 @@ input::before {
 
 input:checked::before {
     transform: translateX(200px);
+    transition: 0.5s;
+}
+
+input:checked {
+    background-color: lightgreen;
     transition: 0.5s;
 }
