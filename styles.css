@@ -16,8 +16,10 @@ input::before {
     position: absolute;
     top: 10px;
     left: 10px;
+    transition: 0.5s;
 }
 
 input:checked::before {
     transform: translateX(200px);
+    transition: 0.5s;
 }
