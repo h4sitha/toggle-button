@@ -32,3 +32,8 @@ input:checked {
     transition: 0.5s;
     border-color: green;
 }
+
+main {
+    text-align: center;
+    margin-top: 30vh;
+}
