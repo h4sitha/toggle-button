@@ -24,9 +24,11 @@ input::before {
 input:checked::before {
     transform: translateX(200px);
     transition: 0.5s;
+    background-color: green;
 }
 
 input:checked {
     background-color: lightgreen;
     transition: 0.5s;
+    border-color: green;
 }
