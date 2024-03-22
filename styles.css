@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
 input {
     height: 200px;
     width: 400px;
@@ -5,7 +9,7 @@ input {
     border-radius: 200px;
     appearance: none;
     position: relative;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 83%);
     transition: 0.5s;
 }
 
@@ -28,7 +32,7 @@ input:checked::before {
 }
 
 input:checked {
-    background-color: lightgreen;
+    background-color: hsl(120, 73%, 75%);
     transition: 0.5s;
     border-color: green;
 }
